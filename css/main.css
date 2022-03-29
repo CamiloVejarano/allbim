@@ -1,0 +1,103 @@
+﻿html, body {
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fill {
+    height: calc(100vh - 80px);
+    margin-top: 3px;
+}
+
+.transition-width {
+    transition: width 1s ease-in-out;
+}
+
+body {
+    padding-top: 60px; /* space for the top nav bar */
+    /*margin-right: 30px;*/
+}
+
+/*#appBuckets {
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 150px);
+}*/
+
+#userHubs {
+    overflow: auto;
+    width: 100%;
+    height: calc(100vh - 115px);
+}
+
+#forgeViewer {
+    width: 100%;
+}
+
+#dashboard {
+    overflow: auto;
+    height: calc(94vh);
+}
+
+.dashboardPanel {
+    width: 100%;
+    height: calc(47vh);
+    padding: 4%;
+    display: block;
+}
+
+.dashboardTitle {
+    margin-bottom: 10px;
+}
+
+.basura {
+    height: 69px;
+    background-color: #445568;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .flex a {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .flex .r {
+        display: flex;
+        margin-right: 25.28px;
+        color: #fdc517;
+    }
+
+        .flex .r label:nth-child(1) {
+            margin-right: 20px;
+        }
+
+    .flex:before, .flex:after {
+        content: initial !important;
+    }
+
+/*.myAwesomeExtensionIcon {
+    background-image: url(/img/myAwesomeIcon.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.handleSelectionExtensionIcon {
+    background-image: url(https://github.com/encharm/Font-Awesome-SVG-PNG/raw/master/white/png/24/object-group.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modelSummaryExtensionIcon {
+    background-image: url(https://github.com/encharm/Font-Awesome-SVG-PNG/raw/master/white/png/24/dashboard.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
